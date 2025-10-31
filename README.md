@@ -14,7 +14,7 @@ Funcionalidades principais
 Tecnologias utilizadas
 
 - **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** PHP 8  
+- **Backend:** PHP   
 - **Banco de dados:** MySQL (via XAMPP / phpMyAdmin)  
 - **Controle de versão:** Git e GitHub Desktop  
 
