@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <h1>LOGIN</h1>
       <div>
         <label for="email">E-MAIL:</label>
-        <input type="email" name="email" id="email" required>
+        <input type="email" name="email" id="email" required autocomplete="off">
       </div>
       <div>
         <label for="senha">SENHA:</label>

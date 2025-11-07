@@ -24,7 +24,7 @@ foreach ($dados as $item) {
 
 session_start();
 
-$nome_cliente = $_SESSION['nome_cliente'] ?? "Cliente DentWhite";
+$nome_cliente = $_SESSION['nome_cliente'] ?? "Cliente";
 $email_cliente = $_SESSION['email_cliente'] ?? "cliente@dentwhite.com";
 
 $sql = "INSERT INTO pedidos (nome_cliente, email_cliente, produtos, total, data_pedido)

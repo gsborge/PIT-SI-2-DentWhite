@@ -51,15 +51,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <h1>SEJA UM CLIENTE DENT WHITE</h1>
       <div>
         <label for="nome">NOME:</label>
-        <input type="text" id="nome" name="nome" required>
+        <input type="text" id="nome" name="nome" required autocomplete="off">
       </div>
       <div>
         <label for="email">EMAIL:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" required autocomplete="off">
       </div>
       <div>
         <label for="senha">SENHA:</label>
-        <input type="password" id="senha" name="senha" required>
+        <input type="password" id="SenhaCadastro" name="senha" required />
+
+
       </div>
       <button type="submit">CRIAR CONTA</button>
       <p>
